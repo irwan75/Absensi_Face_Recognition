@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/midnightBlue"
+    tools:context=".Add">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_height="match_parent"
+        >
+
+        <com.example.facereg.Tutorial3View
+            android:id="@+id/tutorial3_activity_java_surface_view"
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="40dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginBottom="40dp" />
+
+        <ImageView
+            android:id="@+id/imagePreview"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_alignTop="@id/tutorial3_activity_java_surface_view"
+            android:layout_marginStart="50dp"
+            android:layout_toRightOf="@id/tutorial3_activity_java_surface_view"
+            android:contentDescription="image_preview"
+            android:src="@drawable/user_image" />
+
+        <ToggleButton
+            android:id="@+id/capture"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imagePreview"
+            android:layout_toRightOf="@+id/tutorial3_activity_java_surface_view"
+            android:layout_alignBottom="@+id/tutorial3_activity_java_surface_view"
+            android:layout_marginTop="50dp"
+            android:background="@color/colorPrimary"
+            android:layout_alignRight="@+id/imagePreview"
+            android:layout_alignLeft="@+id/imagePreview"
+            android:checked="false"
+            android:textAllCaps="false"
+            android:textOff="capture"
+            android:textOn="capturing"
+            android:textSize="25sp" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

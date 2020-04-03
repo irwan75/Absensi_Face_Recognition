@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "544427680560",
+    "firebase_url": "https://absensipraktikum.firebaseio.com",
+    "project_id": "absensipraktikum",
+    "storage_bucket": "absensipraktikum.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:544427680560:android:3bd825c6b8b968c7245ef5",
+        "android_client_info": {
+          "package_name": "com.example.facereg"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "544427680560-53tsliauk8opifke3krnlu05ekpifa8s.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.facereg",
+            "certificate_hash": "3f6fe0e101ae8ee79b052134c58af9bc8d274934"
+          }
+        },
+        {
+          "client_id": "544427680560-8mvptkaskffonirql21fmvaken19np7e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCyq5-OOZbVTNEQfn1G8jFNww1dX89K3H4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "544427680560-8mvptkaskffonirql21fmvaken19np7e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
